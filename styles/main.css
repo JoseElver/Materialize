@@ -1,0 +1,39 @@
+body{
+    background-color:lightgray;
+}
+div.nav-wrapper{
+    border: solid 3px white ;
+}
+
+nav div ul li a{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+header.carousel-slider>.carousel-item{
+    background-position: center;
+    background-size: cover;
+}
+header.carousel{
+    height: calc( 100vh - 64px) !important;
+}
+header.carousel-slider>.carousel-item:first-of-type{
+    background-image: url('../assets/Avengers_Infinity_War_-_Póster_oficial.png')
+}
+header.carousel-slider>.carousel-item:nth-of-type(2){
+    background-image: url('../assets/antman2.jpg')
+}
+header.carousel-slider>.carousel-item:nth-of-type(3){
+    background-image: url('../assets/ready.jpg')
+}
+header.carousel-slider>.carousel-item:nth-of-type(4){
+    background-image: url('../assets/aquaman.jpg')
+}
+header.carousel-slider>.carousel-item:nth-of-type(5){
+    background-image: url('../assets/marvel.jpg')
+}
+header div h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+}
+
